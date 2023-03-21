@@ -171,3 +171,465 @@ Received Import Request.
   path: Assets/Readme.asset
   artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5a96da0d1335ae901594340dde250e') in 0.040376 seconds 
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Trying to reload asset but can't find object on disk
+0x00007ff7972898ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff797290469 (Unity) StackWalker::ShowCallstack
+0x00007ff798214883 (Unity) GetStacktrace
+0x00007ff7988b615d (Unity) DebugStringToFile
+0x00007ff79723e289 (Unity) PersistentManager::ReloadFromDisk
+0x00007ff7985d4d37 (Unity) ReloadSerializedSingletons
+0x00007ff7985c3d1b (Unity) <lambda_9de660459e8618354eb514546334764f>::operator()
+0x00007ff798604a22 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7985f090e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7985f2574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff798602e0e (Unity) IOService::Run
+0x00007ff7985d583f (Unity) AssetImportWorkerClient::Run
+0x00007ff79859f113 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79859f19b (Unity) RunAssetImporterV2
+0x00007ff797db9628 (Unity) Application::InitializeProject
+0x00007ff79821efe8 (Unity) WinMain
+0x00007ff7995d484e (Unity) __scrt_common_main_seh
+0x00007ff99a2b7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff99ace26a1 (ntdll) RtlUserThreadStart
+
+Registering precompiled user dll's ...
+Registered in 0.005237 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hwahf\Galaxy-Adventure\Galaxy Adventure\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hwahf\Galaxy-Adventure\Galaxy Adventure\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1287ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (981ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 402 unused Assets / (58.6 KB). Loaded Objects now: 4033.
+Memory consumption went from 124.9 MB to 124.8 MB.
+Total: 4.900000 ms (FindLiveObjects: 0.419200 ms CreateObjectMapping: 0.316500 ms MarkObjects: 3.778600 ms  DeleteObjects: 0.383900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 809.099301 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.026220 seconds 
