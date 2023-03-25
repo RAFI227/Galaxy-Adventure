@@ -1,4 +1,7 @@
-public class InputViewModel
+namespace ViewModel
 {
+    public class InputViewModel
+    {
 
+    }
 }
