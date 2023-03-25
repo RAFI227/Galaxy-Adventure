@@ -6,7 +6,7 @@ namespace Service
     {
         public override Ship CreateShip(Side side)
         {
-            return new Ship(side);
+            return null;
         }
     }
 }
